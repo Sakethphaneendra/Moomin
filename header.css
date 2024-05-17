@@ -1,0 +1,114 @@
+:root{
+    --white:hsl(0, 0%, 100%);
+    --yellow:#fff017;
+    --darkgray:#151413;
+    --lightgray:#1e1e1e;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+ 
+      font-family: "Radio Canada Big", sans-serif;
+      font-optical-sizing: auto;
+        /* border: 2px solid red; */
+}
+body{
+    background: var(--darkgray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2vh;
+}
+header{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.grouptogether1{
+    display: flex;
+    align-items: center;
+}
+#Moomin{
+    width: 40px;
+    margin-right: 15px;
+}
+#search{
+    background-color: rgb(233, 253, 253);
+    width: 14em;
+    height: 2.5em;
+    border: none;
+    outline: none;
+    color: #828080;
+    padding: 10px;
+    border-radius: 15px;
+    outline-color: #151413;
+}
+.headicon{
+   
+    list-style: none;  
+    margin-left: -2em;
+}
+.headicon span{
+    color: rgba(191, 191, 191, 0.596);
+    font-size: 25px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.headicon span:hover{
+    transition: all 0.2s ease-in-out;
+    animation: glow 2s ease-in-out;
+}
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgb(23, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 60px rgba(147, 47, 255, 0.8);
+    }
+}
+
+.home:hover{
+    color: rgb(255, 242, 0);
+    transition: all 0.2s ease;
+    animation: sa infinite;
+}
+.message:hover{
+    color: rgb(0, 183, 255);
+}
+.notfication:hover{
+    color: rgb(94, 255, 0);
+}
+.latest:hover{
+    color: rgb(255, 0, 0);
+}
+#active{
+    color: rgb(255, 242, 0);
+}
+.usermenu{
+    display: flex;
+    align-items: center;
+}
+.outerbox{
+    width: 9em;
+    height: 2em;
+    background-color: var(--lightgray);
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0 5px;
+}
+.dp{
+    width: 20px;
+    border-radius: 7px;
+}
+.outerbox h4{
+    color: #c3c2c2;
+    font-size: 10px;
+}
+.outerbox span{
+    font-size:17px;
+    color: white;
+}

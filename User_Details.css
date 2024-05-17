@@ -1,0 +1,79 @@
+:root{
+    --white:hsl(0, 0%, 100%);
+    --yellow:#fff017;
+    --darkgray:#151413;
+    --lightgray:#1e1e1e;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+ 
+      font-family: "Radio Canada Big", sans-serif;
+      font-optical-sizing: auto;
+        /* border: 2px solid red; */
+}
+.interface{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin: 5vh;
+    width: 90vw;
+}
+.userdetails{
+    width: 20vw;
+    height: auto;
+}
+.feed{
+    width: 48vw;
+    height: 60vh;
+}
+.activites{
+    width: 15vw;
+    height: 60vh;
+}
+
+
+/* UserDetails Working */
+
+.profile{
+    width: 20vw;
+    height: 50vh;
+    background-color: var(--lightgray);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.backgroundimage{
+    width: 100%;
+    height: 30%;
+    border-radius: 15px 15px 0 0;
+    background:url("/Posts/UserBackgroundpic.jpg");
+    background-size:cover;
+}
+
+.maindetails{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.followers{
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.followers h4{
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: rgb(222, 222, 222);
+    margin-bottom: 1px;
+}
+.followers span{
+    font-weight: 100;
+    font-size: 10px;
+    color: rgb(222, 222, 222);
+
+}
