@@ -99,7 +99,10 @@ header{
     align-items:center;
     justify-content:space-between;
     padding: 0 5px;
+    transition: 2ms ease-in;
+   
 }
+
 .dp{
     width: 20px;
     border-radius: 7px;
